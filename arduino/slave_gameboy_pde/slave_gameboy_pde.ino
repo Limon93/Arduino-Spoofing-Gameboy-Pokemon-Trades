@@ -15,7 +15,7 @@
 
 int volatile CLOCK_PIN = 2;
 int volatile SO_PIN = 4;
-int volatile SI_PIN = 3;
+int volatile SI_PIN = 3; //in case does not work invert SI and SO pins
 int volatile data = 0;
 int volatile val = 0;
 int ledStatus = 13;
